@@ -1,0 +1,167 @@
+[
+  {
+    "source_application": "SAP ERP",
+    "target_application": "Salesforce CRM",
+    "interface_name": "Customer Master Sync",
+    "data_transferred": ["Customer", "Account", "Contact"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": "p.moreau@example.com",
+    "status": "active",
+    "last_verified": "2026-04-15"
+  },
+  {
+    "source_application": "ServiceNow",
+    "target_application": "SAP ERP",
+    "interface_name": "CMDB Asset Feed",
+    "data_transferred": ["Configuration Item", "Asset", "Service"],
+    "direction": "read",
+    "protocol": "REST",
+    "owner": "c.dubois@example.com",
+    "status": "active",
+    "last_verified": "2026-03-20"
+  },
+  {
+    "source_application": "Legacy Vehicle Configuration System",
+    "target_application": "SAP ERP",
+    "interface_name": "Vehicle Config Export",
+    "data_transferred": ["Vehicle Variant", "Option Code", "Build Specification"],
+    "direction": "write",
+    "protocol": "SOAP",
+    "owner": null,
+    "status": "undocumented",
+    "last_verified": null
+  },
+  {
+    "source_application": "Legacy Vehicle Configuration System",
+    "target_application": "Salesforce CRM",
+    "interface_name": "Model Availability Feed",
+    "data_transferred": ["Vehicle Model", "Availability", "Pricing"],
+    "direction": "write",
+    "protocol": "file",
+    "owner": null,
+    "status": "undocumented",
+    "last_verified": null
+  },
+  {
+    "source_application": "SAP ERP",
+    "target_application": "Legacy Vehicle Configuration System",
+    "interface_name": "Parts Catalog Sync",
+    "data_transferred": ["Part Number", "Supplier", "Lead Time"],
+    "direction": "read",
+    "protocol": "MQ",
+    "owner": "m.lefevre@example.com",
+    "status": "active",
+    "last_verified": "2026-05-01"
+  },
+  {
+    "source_application": "API Registry",
+    "target_application": "GRAF",
+    "interface_name": "Integration Catalog Publish",
+    "data_transferred": ["Integration Metadata", "API Endpoint", "Owner"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": "a.bernard@example.com",
+    "status": "active",
+    "last_verified": "2026-05-10"
+  },
+  {
+    "source_application": "GRAF",
+    "target_application": "ServiceNow",
+    "interface_name": "Architecture Decision Export",
+    "data_transferred": ["Decision Record", "Rationale", "Status"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": "s.martin@example.com",
+    "status": "active",
+    "last_verified": "2026-04-28"
+  },
+  {
+    "source_application": "ServiceNow",
+    "target_application": "Salesforce CRM",
+    "interface_name": "Incident Escalation",
+    "data_transferred": ["Incident", "Priority", "Affected CI"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": "l.girard@example.com",
+    "status": "active",
+    "last_verified": "2026-05-15"
+  },
+  {
+    "source_application": "SAP ERP",
+    "target_application": "ServiceNow",
+    "interface_name": "Change Request Sync",
+    "data_transferred": ["Change Request", "Impact Assessment", "Schedule"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": "n.dupont@example.com",
+    "status": "active",
+    "last_verified": "2026-04-02"
+  },
+  {
+    "source_application": "Legacy Vehicle Configuration System",
+    "target_application": "API Registry",
+    "interface_name": "Config API Registration",
+    "data_transferred": ["API Endpoint", "Version", "Schema"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": null,
+    "status": "undocumented",
+    "last_verified": null
+  },
+  {
+    "source_application": "Salesforce CRM",
+    "target_application": "SAP ERP",
+    "interface_name": "Order Pipeline Feed",
+    "data_transferred": ["Opportunity", "Order", "Revenue Forecast"],
+    "direction": "write",
+    "protocol": "REST",
+    "owner": "r.fournier@example.com",
+    "status": "active",
+    "last_verified": "2026-05-20"
+  },
+  {
+    "source_application": "Legacy Vehicle Configuration System",
+    "target_application": "ServiceNow",
+    "interface_name": "Config Change Notifications",
+    "data_transferred": ["Change Event", "Affected Models", "Timestamp"],
+    "direction": "write",
+    "protocol": "MQ",
+    "owner": null,
+    "status": "undocumented",
+    "last_verified": null
+  },
+  {
+    "source_application": "ServiceNow",
+    "target_application": "GRAF",
+    "interface_name": "CMDB Topology Import",
+    "data_transferred": ["Application CI", "Dependency", "Environment"],
+    "direction": "read",
+    "protocol": "REST",
+    "owner": "a.bernard@example.com",
+    "status": "active",
+    "last_verified": "2026-03-15"
+  },
+  {
+    "source_application": "SAP ERP",
+    "target_application": "GRAF",
+    "interface_name": "ERP Module Registry",
+    "data_transferred": ["Module", "Custom Extension", "Version"],
+    "direction": "write",
+    "protocol": "file",
+    "owner": "s.martin@example.com",
+    "status": "active",
+    "last_verified": "2026-02-28"
+  },
+  {
+    "source_application": "Salesforce CRM",
+    "target_application": "Legacy Vehicle Configuration System",
+    "interface_name": "Customer Preference Sync",
+    "data_transferred": ["Customer Preference", "Vehicle Interest", "Configuration Request"],
+    "direction": "read",
+    "protocol": "SOAP",
+    "owner": "t.rousseau@example.com",
+    "status": "active",
+    "last_verified": "2026-01-10"
+  }
+]
